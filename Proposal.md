@@ -18,16 +18,12 @@ authors:
   - name: Jack Lanoie
     affiliations:
       - University of Rhode Island
-  - name: Cody
+  - name: Cody Giroux
     affiliations:
       - University of Rhode Island
 
 ---
 # Introduction
-Spatial reasoning refers to the ability to understand how objects exist and change within space. It involves recognizing an object’s position, orientation, and movement, as well as understanding how those properties change when the object is moved or viewed from a different perspective. People rely on this type of reasoning frequently in everyday situations. It appears when navigating through a building, interpreting diagrams, or imagining how an object would look after being turned or repositioned. Many puzzles and visual problems depend on the same type of thinking, where the difficulty comes from mentally tracking how an object changes while maintaining an accurate understanding of its orientation and position. 
-Despite the rapid progress of multimodal language models, spatial reasoning remains an area where performance can still be inconsistent. Models often perform well when answers can be inferred from patterns in training data, but may struggle when the task requires maintaining a consistent understanding of where an object is as it moves through space. Small variations in wording or orientation can sometimes lead to different answers even when the reasoning process should remain the same. This possibly means that models may depend on pattern recognition more than making a representation of the spatial relationship of the object and its surroundings. 
-This proposal introduces a benchmark designed to evaluate spatial reasoning in both text-only and multimodal settings. The goal is to measure whether a model can maintain a consistent representation of an object as it is moved in space. The tasks are structured around sequences of spatial operations where an object begins in a default position and then goes through one or more transformations. These problems resemble the type of reasoning used when solving spatial puzzles, where the challenge lies in tracking the transformation rather than identifying the object itself. 
-The benchmark will include a variety of tasks that test the same spatial reasoning ability throughout different formats. Some questions will be presented entirely through text descriptions, while others will include simple images that represent an object and its orientation. Each task will require the model to follow a sequence of spatial changes and determine the final orientation or relative position of the object. By constraining the answer space and varying the transformations used, the benchmark aims to isolate spatial reasoning ability rather than allowing models to rely on memorized patterns. The tasks focus on common spatial transformations such as rotations, directional movement, and relative positioning, requiring the model to maintain a consistent internal representation of an object's orientation and location across multiple steps. 
 
 # Concept & Operationalization
 This benchmark will have several exercises to measure LLM's ability to use common-sense spatial reasoning. We define common-sense reasoning as the ability to correctly infer relative orientation, rotation, and spatial displacement of objects under geometric transformations, using either textual descriptions alone or text grounded in visual input. This includes; mental rotation, relative positioning, directional movement inference, and transformation composition. 
@@ -40,6 +36,25 @@ Our tasks for this benchmark will be split into two types of exercises; text-onl
 This benchmark will test models performance on these topics using various exercises. We will construct it as a controlled benchmark composed of discrete tasks across multimodal settings. Each task will evaluate a specific skill under the large umbrella of spatial reasoning.  By using this benchmark, we will evaluate how effectively large language models understand and manipulate physical space layouts, and object relationships. 
 
 # Related Benchmarks
+
+Other benchmarks have previously tried measuring  LLM's consistency when it comes to true spatial intelligence/awareness. A model is able to detect a car in a photo, but it often cannot truly "think" about how that car would interact within a three dimensional context. What would a car look like if it was rotated 90 degress in a 3d space or such as, "what if a person moved between rooms?" Would the model understand the objects in the old room are no longer in the person's field of view? 
+
+Our benchmark wants to shift the focus towards active spatial reasoning, mental manipulation of objects, predict the outcomes of said movement, and then understand how those changes would affect its real-world use. Comparing to past benchmarks showcases a perspective on where models currently succeed and where our benchmark will provide a new test for artificial common sense. 
+
+1) Mental Rotation
+   Focus Benchmark: [SpatialViz-Bench (2026)](https://arxiv.org/pdf/2507.07610)
+   * Importance: Asks models to perform "unseen relationship interference" on programmatically generated 3D objects. Results determined that the models were great at identifying 2D patterns but struggle when a task require a mental volume in regards to 3D manipulation. Most models defaulted to making guesses based off of 2D textures rather than building a 3D mental image.
+   * Relevance: Our model intends to expand upon this by moving from abstract shapes to functional objects to see if common sense with help overcome this type of 3D cliff the model finds itself on.
+     
+2) Step By Step Movement
+   Focus Benchmark: [StepGame (2025)](https://arxiv.org/pdf/2503.05439?)
+   * Importance: Creates a story regarding an arbitrary amount of entity relations, "A is left of B, B is below C" and tests the model on the relationship between the first and last entities. The difficulty  was scaled exponentially depending on how many entities were added. Sharp decline in accuracy when a relationship exceeded 3-4 steps, showing that most models lack persistent  spatial memory. A sentence can be processed individually but it can't update a unified map mentally
+   * Relevance: Our benchmark intends to test if a visual grounding (allowing the model to see the map while reading the steps) will fix this lapse in memory
+   
+3) Common Sense Interaction
+   Focus Benchmark: [SpaCE-Eval (2025)](https://openreview.net/pdf?id=VAEkLS9VBr)
+   * Importance: Used over 1000 human made diagrams to test physical common sense. Questions model on environmental interaction such as "what would these two 3D shapes look like if they were combined together." Models struggle with spatial simulation, and predicting how an action changes the possibilities in the environment
+   * Relevance: Common sense-esque questions target a usability gap as to whether or not a transformation makes an object or functional. 
 
 # Structure
 The benchmark will contain two broad categories of tasks:
