@@ -7,5 +7,4 @@ Positions are given as (x, y) coordinate pairs. Positive x is to the right, posi
 For relative position questions: choose the direction of the dominant axis (largest absolute difference from start position). If two axes are tied, discard and regenerate.
 
 Answer Bank: north, east, south, west
-
 given an {object} initially facing {direction} at position {position}, after the following transformations: {transformations}, {question}

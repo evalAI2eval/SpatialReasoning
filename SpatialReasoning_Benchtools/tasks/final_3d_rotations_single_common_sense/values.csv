@@ -4,6 +4,8 @@ airplane,sky,backward,180,flown,yes
 laptop,desk,left-right,90,used,no
 book,table,forward,180,read,no
 cell phone,table,backward,180,used for calling,yes
-stool,floor,left-right,270,sat on,yes
+barstool,floor,left-right,270,sat on,yes
 bottle,countertop,forward,180,opened,no
 skateboard,ramp,left-right,90,ridden,no
+lamp,desk,backward,180,used to provide light,yes
+wine glass,table,forward,180,used for drinking,no

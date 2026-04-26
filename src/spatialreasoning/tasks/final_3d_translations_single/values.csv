@@ -9,3 +9,13 @@ pen,"(3,3,-2)",7,left,clock,"(-6,-3,-1)",Up
 clock,"(4,0,-1)",7,left,bottle,"(-7,-1,-7)",Forward
 key,"(0,-6,-2)",6,backward,bag,"(2,-2,7)",Backward
 bag,"(-4,0,-4)",3,backward,bottle,"(0,5,4)",Backward
+pen,"(-4,8,7)",2,up,bowl,"(-5,-4,-3)",Up
+box,"(4,4,6)",6,left,cup,"(-8,-5,0)",Up
+key,"(1,5,-3)",5,up,book,"(0,8,-3)",Up
+pillow,"(1,8,-2)",3,left,book,"(-3,8,-8)",Forward
+hat,"(-6,7,-6)",8,forward,cup,"(-4,-4,7)",Up
+shoe,"(0,8,5)",3,forward,clock,"(-2,1,4)",Up
+pen,"(8,6,-5)",3,down,bottle,"(-6,2,-8)",Right
+hat,"(-1,-1,-8)",2,backward,shoe,"(-7,-1,-6)",Right
+vase,"(-6,8,-1)",4,backward,key,"(7,-2,-4)",Left
+hat,"(7,-1,7)",8,right,umbrella,"(-2,-5,-5)",Right

@@ -8,5 +8,4 @@ to the object. For example, if an object is above and to the right of another ob
 directly above than directly to the right, the answer would be "Up". 
 
 Answer Bank: Up, Down, Left, Right
-
 if an {object} at position {position} is translated {distance} units {direction}, which direction is it relative to {another_object} at position {another_position}?

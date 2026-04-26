@@ -7,5 +7,4 @@ Axes and clockwise directions are defined as follows:
 Counterclockwise is the reverse of clockwise in each case.
 
 Answer Bank: up, down, north, south, east, west
-
 if an {object} facing {direction} is rotated {rotationamount} degrees {rotationdirection} around the {rotationaxis} axis, which direction is it now facing?

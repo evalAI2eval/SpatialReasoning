@@ -128,7 +128,7 @@ python gen_combined.py <task_folder> <n> [--dim 2|3] [--seed N] [--append]
 
 ## Utility Scripts
 
-### task_to_benchtools.sh !DO NOT USE YET! Copilot generated, needs to be tested
+### task_to_benchtools.sh
 
 Copies and reformats tasks into the benchtools folder/format.
 

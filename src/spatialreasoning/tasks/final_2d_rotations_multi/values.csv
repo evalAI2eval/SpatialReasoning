@@ -9,3 +9,13 @@ bicycle,northeast,rotated 45 degrees counterclockwise then 135 degrees countercl
 helicopter,east,rotated 135 degrees clockwise then 270 degrees counterclockwise then 270 degrees clockwise,southwest
 compass,southeast,rotated 180 degrees counterclockwise then 135 degrees clockwise,east
 drone,north,rotated 45 degrees counterclockwise then 180 degrees counterclockwise,southeast
+car,southeast,rotated 270 degrees counterclockwise then 90 degrees counterclockwise then 180 degrees counterclockwise then 90 degrees counterclockwise,southwest
+person,southeast,rotated 225 degrees counterclockwise then 270 degrees counterclockwise then 225 degrees counterclockwise then 135 degrees clockwise,west
+person,northwest,rotated 45 degrees clockwise then 90 degrees clockwise,east
+train,northeast,rotated 180 degrees counterclockwise then 225 degrees counterclockwise then 225 degrees clockwise,southwest
+boat,south,rotated 135 degrees clockwise then 135 degrees counterclockwise then 90 degrees counterclockwise then 45 degrees counterclockwise,northeast
+pointer,east,rotated 45 degrees counterclockwise then 270 degrees clockwise then 90 degrees counterclockwise then 90 degrees clockwise,northwest
+drone,northwest,rotated 45 degrees counterclockwise then 135 degrees clockwise,northeast
+airplane,southeast,rotated 45 degrees clockwise then 270 degrees counterclockwise then 45 degrees clockwise then 90 degrees counterclockwise,southwest
+compass,south,rotated 225 degrees counterclockwise then 90 degrees clockwise then 270 degrees counterclockwise then 180 degrees counterclockwise,northwest
+cannon,northwest,rotated 90 degrees clockwise then 45 degrees counterclockwise,north

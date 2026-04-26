@@ -19,7 +19,8 @@ for task_dir in "$SRC"/*/; do
     dest_task="$DEST/$task_name"
 
     echo "Copying $task_name ..."
-    cp -r "$task_dir" "$dest_task"
+    mkdir -p "$dest_task"
+    cp -r "$task_dir/." "$dest_task/"
 
     config_file="$dest_task/config.yml"
     template_file="$dest_task/template.txt"

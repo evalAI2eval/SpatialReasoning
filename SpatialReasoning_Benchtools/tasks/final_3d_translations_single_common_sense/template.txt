@@ -1,7 +1,5 @@
 Answer the following question exclusively with a single answer from the answer bank.
 Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
 
-
 Answer Bank: yes, no
-
-Using standard 3D axis nomenclature, if a {object} on a {context_object} is rotated about its {directional_axis} axis {degrees} degrees, can it still be {object_use_verb}?
+If a {object} is moved {distance} {direction} a {context_object}, can it still be {object_use_verb}?

@@ -8,7 +8,7 @@
 set -e
 
 SEED=42
-N=30
+N=20
 
 while [[ $# -gt 0 ]]; do
     case "$1" in

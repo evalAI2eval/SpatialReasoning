@@ -7,5 +7,4 @@ Apply each rotation in sequence. Axes and clockwise directions are defined as fo
 Counterclockwise is the reverse of clockwise in each case.
 
 Answer Bank: up, down, north, south, east, west
-
 if an {object} facing {direction} undergoes the following rotations: {transformations}, which direction is it now facing?

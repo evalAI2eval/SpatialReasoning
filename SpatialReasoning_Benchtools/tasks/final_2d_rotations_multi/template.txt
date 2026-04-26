@@ -5,5 +5,4 @@ is "If you rotate an object 90 degrees to the right, which direction is it now f
 the answer would be "right".
 
 Answer Bank: up, right, left, down, east, west, north, south, northwest, northeast, southwest, southeast
-
 if an {object} facing {direction} is {transformation}, which direction is it now facing?

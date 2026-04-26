@@ -1,11 +1,21 @@
 object,direction,position,transformations,question,reference
-arrow,east,"(-2,-1)",rotate 225 degrees counterclockwise then move 2 units down then rotate 270 degrees counterclockwise then rotate 135 degrees counterclockwise,Which direction is the object facing?,south
+arrow,west,"(-2,-1)",rotate 225 degrees counterclockwise then move 2 units down then rotate 270 degrees counterclockwise then rotate 135 degrees counterclockwise,Which direction is the object facing?,north
 ship,south,"(-5,-6)",rotate 225 degrees counterclockwise then rotate 45 degrees counterclockwise then move 6 units up,Where is the object relative to its starting position?,north
 car,south,"(3,-2)",rotate 90 degrees clockwise then rotate 180 degrees counterclockwise then rotate 180 degrees counterclockwise then move 3 units left,Where is the object relative to its starting position?,west
 ship,south,"(-6,-3)",rotate 270 degrees clockwise then rotate 270 degrees counterclockwise then move 2 units down then rotate 45 degrees counterclockwise,Where is the object relative to its starting position?,south
-tank,east,"(-2,2)",rotate 180 degrees counterclockwise then move 3 units left,Which direction is the object facing?,west
+tank,west,"(-2,2)",rotate 180 degrees counterclockwise then move 3 units left,Which direction is the object facing?,east
 rocket,south,"(5,4)",rotate 45 degrees clockwise then move 2 units down then rotate 270 degrees clockwise,Where is the object relative to its starting position?,south
-car,west,"(4,6)",rotate 270 degrees counterclockwise then move 2 units left then move 5 units down then rotate 180 degrees clockwise,Where is the object relative to its starting position?,south
+car,east,"(4,6)",rotate 270 degrees counterclockwise then move 2 units left then move 5 units down then rotate 180 degrees clockwise,Where is the object relative to its starting position?,south
 pointer,north,"(8,-5)",move 6 units up then rotate 225 degrees counterclockwise then rotate 180 degrees clockwise then move 2 units left,Where is the object relative to its starting position?,north
-arrow,east,"(-7,-1)",move 4 units up then rotate 225 degrees clockwise,Where is the object relative to its starting position?,north
+arrow,west,"(-7,-1)",move 4 units up then rotate 225 degrees clockwise,Where is the object relative to its starting position?,north
 cursor,north,"(-4,7)",rotate 180 degrees clockwise then move 2 units up,Where is the object relative to its starting position?,north
+tank,east,"(-1,-6)",move 2 units down then rotate 90 degrees counterclockwise then rotate 180 degrees counterclockwise,Which direction is the object facing?,south
+submarine,west,"(-3,4)",rotate 135 degrees counterclockwise then move 4 units right,Where is the object relative to its starting position?,east
+airplane,west,"(-3,-6)",move 6 units up then rotate 225 degrees clockwise then rotate 180 degrees counterclockwise then rotate 135 degrees clockwise,Where is the object relative to its starting position?,north
+rocket,south,"(1,-3)",move 6 units left then rotate 270 degrees clockwise then move 3 units left,Which direction is the object facing?,east
+boat,north,"(0,1)",rotate 225 degrees counterclockwise then move 4 units up then rotate 45 degrees counterclockwise then move 4 units up,Which direction is the object facing?,east
+drone,north,"(0,-3)",move 3 units up then move 4 units down then move 5 units down then rotate 45 degrees counterclockwise,Where is the object relative to its starting position?,south
+tank,north,"(-5,4)",rotate 90 degrees clockwise then move 5 units left,Where is the object relative to its starting position?,west
+rocket,north,"(-8,-2)",move 4 units left then rotate 270 degrees counterclockwise then move 6 units left,Which direction is the object facing?,east
+boat,south,"(-3,0)",move 6 units right then rotate 135 degrees counterclockwise,Where is the object relative to its starting position?,east
+pointer,west,"(4,-2)",rotate 45 degrees clockwise then move 4 units right then rotate 45 degrees counterclockwise,Where is the object relative to its starting position?,east

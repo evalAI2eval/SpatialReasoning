@@ -9,3 +9,13 @@ cup,"(3,5,-1)",5 units down then 4 units down then 3 units backward,mug,"(-3,4,1
 shoe,"(-2,5,3)",3 units down then 6 units right then 2 units up,umbrella,"(0,3,0)",Right
 book,"(4,-4,6)",5 units right then 6 units right,plant,"(4,0,3)",Right
 lamp,"(2,6,-4)",6 units forward then 3 units down then 4 units down,candle,"(2,-5,4)",Up
+shoe,"(-6,3,-1)",4 units down then 2 units down then 6 units up,pillow,"(1,-6,-5)",Up
+cup,"(-5,6,2)",5 units forward then 3 units left then 6 units forward then 5 units down,remote,"(6,-4,-4)",Forward
+shoe,"(5,-2,0)",6 units right then 2 units down then 3 units up,mug,"(4,4,-1)",Right
+key,"(3,2,-3)",2 units down then 2 units up,lamp,"(3,-3,-6)",Up
+key,"(2,-3,-2)",3 units backward then 6 units forward then 5 units down then 5 units right,cup,"(4,1,-3)",Down
+mug,"(-5,4,0)",2 units backward then 2 units up then 5 units backward,book,"(-1,0,0)",Backward
+key,"(-3,-3,-3)",3 units left then 5 units down then 2 units right,book,"(2,1,-4)",Down
+shoe,"(-6,4,2)",3 units right then 5 units right,book,"(-6,-5,6)",Up
+mug,"(-6,-4,0)",4 units right then 6 units backward then 5 units down,bag,"(-6,0,-2)",Down
+mug,"(-3,-6,3)",4 units up then 2 units forward then 5 units forward then 6 units down,phone,"(5,2,-6)",Forward

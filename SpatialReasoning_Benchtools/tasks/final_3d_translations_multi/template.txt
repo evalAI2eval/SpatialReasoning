@@ -7,5 +7,4 @@ directly in front (toward viewer) is "Forward", directly behind (away from viewe
 Choose the direction of the dominant axis (largest absolute difference). If two axes are tied, discard and regenerate.
 
 Answer Bank: Up, Down, Left, Right, Forward, Backward
-
 if an {object} at position {position} undergoes the following translations: {transformations}, which direction is it relative to {another_object} at position {another_position}?

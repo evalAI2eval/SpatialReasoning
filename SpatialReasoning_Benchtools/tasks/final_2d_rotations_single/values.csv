@@ -9,3 +9,13 @@ train,southwest,135,clockwise,north
 ship,southwest,45,clockwise,west
 submarine,northeast,135,counterclockwise,west
 tank,north,270,counterclockwise,east
+boat,west,45,counterclockwise,southwest
+helicopter,southeast,270,clockwise,northeast
+airplane,southeast,315,counterclockwise,south
+car,southeast,315,clockwise,east
+submarine,south,180,counterclockwise,north
+compass,southwest,135,clockwise,north
+tank,northeast,225,clockwise,west
+rocket,east,180,counterclockwise,west
+tank,southeast,270,counterclockwise,southwest
+airplane,southeast,315,clockwise,east

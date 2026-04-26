@@ -9,3 +9,13 @@ helicopter,south,"(-4,8,7)",move 2 units down then rotate 270 degrees clockwise 
 car,west,"(4,6,8)",move 6 units left then rotate 270 degrees counterclockwise around the X axis then rotate 180 degrees counterclockwise around the X axis,Where is the object relative to its starting position?,west
 arrow,down,"(0,8,-3)",rotate 90 degrees clockwise around the Z axis then move 4 units right then rotate 90 degrees clockwise around the Y axis then move 4 units down,Which direction is the object facing?,north
 rocket,up,"(-6,-6,7)",move 3 units backward then rotate 180 degrees clockwise around the Y axis,Where is the object relative to its starting position?,south
+ship,up,"(-2,1,4)",move 3 units up then move 4 units up then rotate 270 degrees clockwise around the Z axis then move 3 units up,Which direction is the object facing?,west
+airplane,south,"(-6,-7,2)",move 4 units backward then rotate 180 degrees clockwise around the Z axis,Which direction is the object facing?,south
+cursor,south,"(7,5,-2)",move 5 units left then rotate 180 degrees counterclockwise around the Y axis,Which direction is the object facing?,north
+boat,north,"(4,2,-5)",move 3 units forward then rotate 180 degrees clockwise around the Y axis,Which direction is the object facing?,south
+tank,west,"(-1,-6,6)",move 3 units right then rotate 180 degrees counterclockwise around the X axis then rotate 180 degrees clockwise around the X axis then rotate 180 degrees clockwise around the Y axis,Where is the object relative to its starting position?,east
+cannon,east,"(5,7,-4)",rotate 90 degrees clockwise around the Z axis then move 6 units up,Where is the object relative to its starting position?,up
+airplane,north,"(7,8,8)",move 6 units up then rotate 90 degrees clockwise around the Z axis,Which direction is the object facing?,north
+boat,north,"(-2,8,0)",rotate 90 degrees clockwise around the Y axis then move 4 units down,Where is the object relative to its starting position?,down
+bicycle,up,"(8,-8,1)",move 6 units down then rotate 180 degrees counterclockwise around the Z axis then rotate 90 degrees counterclockwise around the X axis then rotate 270 degrees counterclockwise around the Z axis,Where is the object relative to its starting position?,down
+tank,north,"(-6,5,0)",move 4 units down then rotate 270 degrees counterclockwise around the X axis,Where is the object relative to its starting position?,down
