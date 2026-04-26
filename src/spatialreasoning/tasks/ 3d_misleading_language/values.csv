@@ -1,0 +1,11 @@
+object,context,rot_axis,degrees,translation,verb,misleading_desc,correct_answer
+refrigerator,kitchen floor,vertical,180,into the garage,opened to get milk,spun around to face the wall,no
+umbrella,sidewalk,longitudinal,180,none,used to stay dry,flipped inside out by the wind,no
+bicycle,driveway,transverse,180,onto the roof,ridden,inverted for a chain repair,no
+wall clock,living room,vertical,360,none,read to tell time,rotated in a full circle,yes
+trash can,curbside,transverse,90,none,filled with garbage,tipped over onto its side,no
+sleeping bag,tent,longitudinal,360,none,slept in,rolled over completely,yes
+soup bowl,dining table,transverse,180,none,used to hold soup,upside down on the placemat,no
+stepladder,garage,vertical,180,none,climbed,turned to face the opposite direction,yes
+computer mouse,office desk,vertical,180,under the desk,used to click,pivoted to face the user,no
+couch,den,vertical,90,into the backyard,sat on,reoriented toward the corner,no
