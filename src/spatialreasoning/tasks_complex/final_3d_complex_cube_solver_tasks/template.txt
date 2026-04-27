@@ -1,0 +1,3 @@
+A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections, each representing a face. The up (U) face is above the front (F) face, the left (L) face is to the left of the front (F) face, the right (R) face is to the right of the front (F) face, the back (B) face is to the right of the right (R) face, and the down (D) face is below the front (F) face.
+Given the following 2 by 2 Rubrik's cube: {starting_cube}, solve the cube so that exactly one number is on each face. Use the official move notaion (U, L1, F2, etc.) to describe the most efficient way to solve this cube by providing a list of moves.
+Answer bank: {B, B1, B2, D, D1, D2, F, F1, F2, L, L1, L2, R, R1, R2, U, U1, U2}

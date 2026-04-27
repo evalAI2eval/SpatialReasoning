@@ -1,0 +1,2 @@
+A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections, each representing a face. The up (U) face is above the front (F) face, the left (L) face is to the left of the front (F) face, the right (R) face is to the right of the front (F) face, the back (B) face is to the right of the right (R) face, and the down (D) face is below the front (F) face.
+Given the following 2 by 2 Rubrik's cube: {starting_cube}, apply these moves {moves} in order to the starting cube and return the resulting cube in the same format as the starting cube.

@@ -1,0 +1,5 @@
+A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections, each representing a face. The up (U) face is above the front (F) face, the left (L) face is to the left of the front (F) face, the right (R) face is to the right of the front (F) face, the back (B) face is to the right of the right (R) face, and the down (D) face is below the front (F) face.
+Given the following 2 by 2 Rubrik's cubes the starting cube: {starting_cube} and the final cube: {final_cube}, determine the sequence of moves that transforms the starting cube into the final cube using the minimum number of moves possible.
+Return the shortest valid move sequence.
+
+Answer bank: {B, B1, B2, D, D1, D2, F, F1, F2, L, L1, L2, R, R1, R2, U, U1, U2}

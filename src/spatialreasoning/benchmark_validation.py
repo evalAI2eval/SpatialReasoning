@@ -21,6 +21,7 @@ VALID_TASK_CATEGORIES: list[str] = ['2d_rotation_multi',
                                     '3d_rotations_single_common_sense',
                                     '3d_translations_single_common_sense',
                                     '3d_combined_transformations_multi',
+                                    '3d_combined_transformations_common_sense',
                                     ]
 
 

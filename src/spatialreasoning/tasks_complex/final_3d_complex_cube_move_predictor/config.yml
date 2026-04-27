@@ -1,0 +1,18 @@
+system_prompt: |
+  Answer the following question as specified with the format {Front: ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state of the die after the specified rotations. 
+  The initial state of the die will be provided, along with a series of rotations.
+  The numbers represent which face of the die is in that position. The faces of the die are numbered 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. 
+  Your response should ONLY include the final state of the die in the specified format, and nothing else. Do not include any explanations or additional text.
+  An example response would be "Front: 2, Back: 5, Up: 1, Down: 6, Left: 3, Right: 4" without quotations. If a response is not in the correct format, it will be marked as incorrect.
+
+
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 3d
+  - rotation
+  - die
+  - multi_transformation
+  - 3d_rotations_multi_die
