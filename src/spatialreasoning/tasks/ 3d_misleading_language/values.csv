@@ -1,5 +1,5 @@
-question, correct_answer
-"If a refrigerator is rotated 180 degrees on its pitch axis and moved into the middle of a garage, is it still possible to open the door to get milk from the kitchen?", yes,
+question, correct_answer,
+"If a refrigerator is rotated 180 degrees on its pitch axis and moved into the middle of a garage, is it still possible to open the door to get milk from the kitchen", yes,
 "If an umbrella on a sidewalk is rotated 180 degrees on the roll axis to be flipped inside out by the wind, is it currently being used to stay dry", no,
 "If a bicycle in a driveway is rotated 180 degrees on its pitch axis to be inverted for a chain repair and moved onto the roof, can it still be ridden", no,
 "If a wall clock in a living room is rotated 360 degrees on its zaw axis and the hands are spun in a full circle, can it still be read to tell time", yes,
