@@ -1,1 +1,11 @@
 question,correct_answer
+"A paper map of a park is rotated 180 degrees so that 'South' is at the top; if you are standing in the physical park, has the sun moved to the opposite side of the sky",no
+"A photograph of a person is reflected in a mirror; has the birthmark on the physical person's face moved to their other cheek",no
+"A floor plan of a house is rotated 360 degrees on a computer; has the front door of the physical house changed its position",no
+"A digital image of a light switch is toggled from the 'Bottom' to the 'Top' of a touch-screen interface; if the screen is not connected to a smart-home system, has the physical light in the room turned on",no
+"A circle representing a hydraulic piston is scaled down to 50% size on a technical drawing; does the real piston now have a smaller diameter", no
+"A schematic of a solar panel is translated 50 units along the X-axis of a digital canvas; has the physical panel on the roof moved into the shade of a nearby tree",no
+"A blueprint of a high-pressure pipe is reflected across its center-line on a workstation; if the physical pipe in the refinery is currently leaking, will the reflection stop the fluid from escaping",no
+"A video is playing on a phone, where a car is in frame going from the right end to the left end and eventually goes off screen. Is the car now physically present", no
+"A piece of cheese is left on a basketball court, if a mouse comes to eat it will the cheese end up on the opposite side of the court", no
+"A circle is drawn in chalk on a playground and then rotated 360 degrees around its center point; does the chalk drawing still occupy the same physical space on the pavement",yes
