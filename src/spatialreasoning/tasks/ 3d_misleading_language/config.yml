@@ -8,7 +8,6 @@ scoring_functions:
   - binary_match
 
 tags:
-  - 3d_spatial
-  - simplified_objects
+  - 3d_spatial_awareness
   - rotation_translation_combo
   - common_sense
