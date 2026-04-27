@@ -1,1 +1,1 @@
-There is a {object} on the {context}. If the {object} is {misleading_desc}—specifically undergoing a {degrees} degree rotation about its {rot_axis} axis and a translation {translation}—can it still be {verb}?
+{question}?
