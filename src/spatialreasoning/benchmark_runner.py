@@ -6,14 +6,18 @@ from .benchmark_types import Task, TaskResult, BenchmarkResult
 
 class BenchmarkRunner:
     """Class responsible for running a benchmark for a given model and set of tasks, producing a BenchmarkResult with responses and correct answers."""
-    def __init__(self, model: str = 'gemma3', tasks: List[Task] = None):
+    def __init__(self, model: str = 'gemma3', tasks: List[Task] = None, debug_mode: bool = False):
         self.model = model
         self.tasks: List[Task] = tasks or []
         self.result: BenchmarkResult = None
+        self.debug_mode = False
 
     def run_benchmark(self, repeat_index: int = 0, think: bool = False) -> BenchmarkResult:
         task_results = []
+        task_count = 0
+        task_total = len(self.tasks)
         for task in self.tasks:
+            if self.debug_mode: print(f"Running task: {task_count}/{task_total} (Repeat {repeat_index + 1})")
             query = ModelQuery(
                 model=self.model,
                 system_prompt=task.system_prompt,
@@ -24,6 +28,9 @@ class BenchmarkRunner:
             query.run_query()
             response_text = query.responses[0].message.content
             task_results.append(TaskResult(task=task, response=response_text))
+            if self.debug_mode:
+                print(f"Response: {response_text}\nCorrect Answer: {task.correct_answer}\n")
+                task_count += 1
 
         self.result = BenchmarkResult(
             model=self.model,

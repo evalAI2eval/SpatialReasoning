@@ -11,4 +11,5 @@ tags:
   - complex
   - rubiks_cube
   - multi_transformation
-  - 3d_complex_cube_move_predictor
+  - 3d_complex_cube_solver_tasks
+  

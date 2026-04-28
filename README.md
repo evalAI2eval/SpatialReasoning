@@ -56,16 +56,6 @@ NOTE: "common-sense" style questions are human authored and are static / not gen
 
 TODO: INTEGRATE RUBIX/DICE GENERATION INTO SCRIPTS
 
-### Windows (PowerShell)
-
-```powershell
-# from the repo root — uses default seed=42, n=20
-.\populate_tasks.ps1
-
-# custom seed and count
-.\populate_tasks.ps1 -Seed 123 -N 50
-```
-
 ### Linux / macOS / WSL (Bash)
 
 ```bash
