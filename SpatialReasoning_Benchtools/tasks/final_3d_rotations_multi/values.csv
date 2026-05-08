@@ -1,0 +1,21 @@
+object,direction,transformations,reference
+car,south,270 degrees clockwise around the Z axis then 90 degrees counterclockwise around the X axis,up
+cannon,up,90 degrees clockwise around the Z axis then 180 degrees counterclockwise around the Y axis then 90 degrees clockwise around the Y axis,north
+boat,north,90 degrees counterclockwise around the Y axis then 270 degrees counterclockwise around the X axis then 270 degrees counterclockwise around the Z axis,up
+boat,west,270 degrees counterclockwise around the Z axis then 270 degrees counterclockwise around the Z axis,east
+ship,down,90 degrees clockwise around the Y axis then 90 degrees clockwise around the X axis,north
+submarine,east,270 degrees counterclockwise around the X axis then 180 degrees counterclockwise around the X axis then 270 degrees counterclockwise around the Z axis,down
+car,up,90 degrees clockwise around the X axis then 180 degrees counterclockwise around the Y axis then 270 degrees clockwise around the Z axis then 180 degrees clockwise around the X axis,south
+airplane,east,180 degrees clockwise around the X axis then 270 degrees counterclockwise around the X axis then 270 degrees counterclockwise around the Y axis,south
+boat,down,180 degrees counterclockwise around the X axis then 180 degrees counterclockwise around the X axis then 180 degrees clockwise around the Z axis then 270 degrees counterclockwise around the Z axis,east
+compass,up,270 degrees counterclockwise around the Z axis then 270 degrees clockwise around the X axis,east
+helicopter,south,270 degrees clockwise around the Z axis then 180 degrees counterclockwise around the X axis then 90 degrees counterclockwise around the Y axis then 90 degrees clockwise around the X axis,west
+car,north,180 degrees clockwise around the Z axis then 90 degrees clockwise around the Z axis then 180 degrees clockwise around the Y axis then 270 degrees counterclockwise around the X axis,down
+ship,down,180 degrees counterclockwise around the Y axis then 270 degrees counterclockwise around the X axis then 90 degrees clockwise around the X axis,up
+drone,north,270 degrees clockwise around the Z axis then 90 degrees clockwise around the X axis then 270 degrees clockwise around the X axis then 90 degrees clockwise around the Y axis,east
+car,up,180 degrees counterclockwise around the X axis then 270 degrees clockwise around the Z axis,east
+cursor,south,180 degrees clockwise around the X axis then 90 degrees counterclockwise around the Y axis then 180 degrees counterclockwise around the Y axis,east
+airplane,down,270 degrees clockwise around the X axis then 180 degrees counterclockwise around the X axis then 90 degrees clockwise around the X axis then 270 degrees counterclockwise around the X axis,south
+train,south,180 degrees clockwise around the X axis then 180 degrees clockwise around the X axis then 270 degrees clockwise around the X axis,up
+rocket,south,180 degrees counterclockwise around the X axis then 180 degrees clockwise around the X axis then 180 degrees clockwise around the Y axis,north
+tank,west,180 degrees counterclockwise around the X axis then 90 degrees counterclockwise around the X axis then 90 degrees clockwise around the Z axis,up

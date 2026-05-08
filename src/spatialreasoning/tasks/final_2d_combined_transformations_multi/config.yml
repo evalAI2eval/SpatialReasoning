@@ -1,0 +1,21 @@
+system_prompt: |
+  Answer the following question exclusively with a single answer from the answer bank.
+  Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+  Rotations only change the facing direction; translations only change the position.
+  Apply each transformation in sequence.
+  Facing directions use compass headings. Clockwise rotation steps: north → east → south → west. Counterclockwise is the reverse. Rotations are in 45° increments (so 45° clockwise from north is northeast, etc.).
+  Positions are given as (x, y) coordinate pairs. Positive x is to the right, positive y is upward.
+  For relative position questions: choose the direction of the dominant axis (largest absolute difference from start position). If two axes are tied, discard and regenerate.
+
+  Answer Bank: north, east, south, west
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 2d
+  - rotation
+  - translation
+  - multi_transformation
+  - combined_transformations
+  - 2d_combined_transformations_multi

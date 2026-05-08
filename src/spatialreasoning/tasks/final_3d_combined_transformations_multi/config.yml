@@ -1,0 +1,24 @@
+system_prompt: |
+  Answer the following question exclusively with a single answer from the answer bank.
+  Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+  Rotations only change the facing direction; translations only change the position.
+  Apply each transformation in sequence. Axes and clockwise directions are defined as follows:
+    Y axis - vertical axis. Clockwise viewed from above: north→east→south→west.
+    X axis - left/right axis. Clockwise viewed from the right: north→up→south→down.
+    Z axis - forward/backward axis. Clockwise viewed from the front: up→east→down→west.
+  Counterclockwise is the reverse of clockwise in each case.
+  Positions are given as (x, y, z) coordinate triples. Positive x is to the right, positive y is upward, positive z is toward the viewer.
+  For relative position questions: choose the direction of the dominant axis (largest absolute difference from start position). If two axes are tied, discard and regenerate.
+
+  Answer Bank: north, south, east, west, up, down
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 3d
+  - rotation
+  - translation
+  - multi_transformation
+  - combined_transformations
+  - 3d_combined_transformations_multi

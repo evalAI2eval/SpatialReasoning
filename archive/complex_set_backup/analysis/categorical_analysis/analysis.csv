@@ -1,0 +1,8 @@
+model,average_accuracy,repeat_0,tag_3d_rotations_multi_die
+gemma3:4b,0.0133,0.0133,0.0133
+gemma4:26b,0.0000,0.0000,0.0000
+gemma4:e2b,0.0000,0.0000,0.0000
+gemma4:e4b,0.0000,0.0000,0.0000
+mistral:7b,0.0000,0.0000,0.0000
+qwen3.6:27b,0.0067,0.0067,0.0067
+qwen3:8b,0.0467,0.0467,0.0467

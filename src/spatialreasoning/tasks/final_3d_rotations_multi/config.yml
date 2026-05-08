@@ -1,0 +1,19 @@
+system_prompt: |
+  Answer the following question exclusively with a single answer from the answer bank.
+  Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+  Apply each rotation in sequence. Axes and clockwise directions are defined as follows:
+    Y axis - vertical axis. Clockwise viewed from above: north→east→south→west.
+    X axis - left/right axis. Clockwise viewed from the right: north→up→south→down.
+    Z axis - forward/backward axis. Clockwise viewed from the front: up→east→down→west.
+  Counterclockwise is the reverse of clockwise in each case.
+
+  Answer Bank: up, down, north, south, east, west
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 3d
+  - rotation
+  - multi_transformation
+  - 3d_rotation_multi

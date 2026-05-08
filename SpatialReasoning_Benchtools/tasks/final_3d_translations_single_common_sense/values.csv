@@ -1,0 +1,11 @@
+object,context_object,distance,direction,object_use_verb,reference
+remote control,TV,10 feet,away from,used to change channels,yes
+lamp,desk,3 feet,away from,used to light the desk,no
+phone,person,2 feet,away from,used for calling,yes
+chair,table,4 feet,away from,sat on,yes
+book,reader,6 feet,away from,read,no
+trash can,kitchen,20 feet,away from,used to throw away trash,yes
+computer monitor,keyboard,3 feet,away from,used for typing,no
+bicycle,garage,10 feet,away from,ridden,yes
+refrigerator,house,10 feet,outside of,used to store perishable food,no
+fire extinguisher,building,30 feet,away from,used to put out fires,no

@@ -1,0 +1,19 @@
+system_prompt: |
+  Answer the following question exclusively with a single answer from the answer bank.
+  Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+  Positions are given as (x, y, z) coordinate triples. Positive x is to the right, positive y is upward, positive z is toward the viewer.
+  Treat relative directions like equal cones along each axis. If one object is directly above another it is "Up",
+  directly below is "Down", directly to the right is "Right", directly to the left is "Left",
+  directly in front (toward viewer) is "Forward", directly behind (away from viewer) is "Backward".
+  Choose the direction of the dominant axis (largest absolute difference). If two axes are tied, discard and regenerate.
+
+  Answer Bank: Up, Down, Left, Right, Forward, Backward
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 3d
+  - translation
+  - single_transformation
+  - 3d_translation_single

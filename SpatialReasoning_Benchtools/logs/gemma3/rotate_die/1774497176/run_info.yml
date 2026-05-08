@@ -1,0 +1,41 @@
+bench_name: benchmark
+bench_path: benchmark
+description: "a template based task with template: Given the following directional\
+  \ faces of a numerical die and the values on those directional faces {starting_state},\
+  \ what are the values on the directional faces after the following transformations?\
+  \ {transformations} Respond in the format that was used to provide the initial state\
+  \ of the die. and values like:\n\n |    | starting_state                       \
+  \                  | transformations                                           \
+  \                                                           | reference        \
+  \                                      |\n|---:|:-------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|\n\
+  |  0 | {Front: 1, Back: 6, Up: 4, Down: 3, Left: 2, Right: 5} | {rotate front face\
+  \ 90 degrees counterclockwise}                                                 \
+  \                     | {Front: 1, Back: 6, Up: 5, Down: 2, Left: 4, Right: 3} |\n\
+  |  1 | {Front: 3, Back: 4, Up: 5, Down: 2, Left: 1, Right: 6} | {rotate top face\
+  \ 180 degrees, rotate right face 90 degrees clockwise}                         \
+  \                       | {Front: 2, Back: 5, Up: 4, Down: 3, Left: 6, Right: 1}\
+  \ |\n|  2 | {Front: 2, Back: 5, Up: 6, Down: 1, Left: 3, Right: 4} | {rotate right\
+  \ face 90 degrees clockwise, rotate top face 90 degrees counterclockwise, rotate\
+  \ front face 180 degrees} | {Front: 3, Back: 4, Up: 5, Down: 2, Left: 1, Right:\
+  \ 6} |"
+id_generator: concatenator_id_generator
+log_path: benchmark/logs/gemma3/rotate_die/1774497176
+name: rotate_die
+reference:
+- '{Front: 1, Back: 6, Up: 5, Down: 2, Left: 4, Right: 3}'
+- '{Front: 2, Back: 5, Up: 4, Down: 3, Left: 6, Right: 1}'
+- '{Front: 3, Back: 4, Up: 5, Down: 2, Left: 1, Right: 6}'
+run_id: '1774497176'
+scorer: exact_match
+template: Given the following directional faces of a numerical die and the values
+  on those directional faces {starting_state}, what are the values on the directional
+  faces after the following transformations? {transformations} Respond in the format
+  that was used to provide the initial state of the die.
+values:
+- starting_state: '{Front: 1, Back: 6, Up: 4, Down: 3, Left: 2, Right: 5}'
+  transformations: '{rotate front face 90 degrees counterclockwise}'
+- starting_state: '{Front: 3, Back: 4, Up: 5, Down: 2, Left: 1, Right: 6}'
+  transformations: '{rotate top face 180 degrees, rotate right face 90 degrees clockwise}'
+- starting_state: '{Front: 2, Back: 5, Up: 6, Down: 1, Left: 3, Right: 4}'
+  transformations: '{rotate right face 90 degrees clockwise, rotate top face 90 degrees
+    counterclockwise, rotate front face 180 degrees}'

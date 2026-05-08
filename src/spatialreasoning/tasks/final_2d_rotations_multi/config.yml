@@ -1,0 +1,17 @@
+system_prompt: |
+  Answer the following question exclusively with a single answer from the answer bank.
+  Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+  Assume the perspective of the object is being rotated on a 2D plane you are viewing on. For example, if the question 
+  is "If you rotate an object 90 degrees to the right, which direction is it now facing?" and the object was originally facing up, 
+  the answer would be "right".
+
+  Answer Bank: up, right, left, down, east, west, north, south, northwest, northeast, southwest, southeast
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 2d
+  - rotation
+  - multi_transformation
+  - 2d_rotation_multi

@@ -1,0 +1,14 @@
+system_prompt: |
+  "Follow the next instructions carefully."
+
+
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 3d
+  - complex
+  - rubiks_cube
+  - multi_transformation
+  - 3d_complex_cube_move_predictor

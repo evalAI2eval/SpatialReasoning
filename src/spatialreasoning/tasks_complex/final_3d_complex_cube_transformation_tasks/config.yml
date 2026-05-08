@@ -1,0 +1,14 @@
+system_prompt: |
+  "Follow the next instructions carefully. DO NOT provide anything other than the exact answer. DO NOT provide any explanations or reasoning steps. DO NOT provide any additional text. ONLY provide the final answer in the exact format specified in the instructions. The answer should be concise and to the point."
+
+
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 3d
+  - complex
+  - rubiks_cube
+  - multi_transformation
+  - 3d_complex_cube_transformation_tasks

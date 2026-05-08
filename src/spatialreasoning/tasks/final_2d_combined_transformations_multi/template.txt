@@ -1,0 +1,1 @@
+given an {object} initially facing {direction} at position {position}, after the following transformations: {transformations}, {question}

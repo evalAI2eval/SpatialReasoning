@@ -1,0 +1,20 @@
+system_prompt: |
+  Answer the following question exclusively with a single answer from the answer bank.
+  Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+  Positions are given as (x, y) coordinate pairs. Positive x is to the right, positive y is upward.
+  Treat relative directions like 90 degree cones, if one object is directly above another it is "Up". 
+  If it is directly to the right, it is "Right". If it is directly below, it is "Down". If it is directly 
+  to the left, it is "Left". If an object is in between two directions, choose the direction that is closest 
+  to the object. For example, if an object is above and to the right of another object, but closer to being 
+  directly above than directly to the right, the answer would be "Up". 
+
+  Answer Bank: Up, Down, Left, Right
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 2d
+  - translation
+  - single_transformation
+  - 2d_translation_single

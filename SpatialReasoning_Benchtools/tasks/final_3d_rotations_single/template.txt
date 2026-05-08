@@ -1,0 +1,10 @@
+Answer the following question exclusively with a single answer from the answer bank.
+Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+Axes and clockwise directions are defined as follows:
+  Y axis — vertical axis. Clockwise viewed from above: north→east→south→west.
+  X axis — left/right axis. Clockwise viewed from the right: north→up→south→down.
+  Z axis — forward/backward axis. Clockwise viewed from the front: up→east→down→west.
+Counterclockwise is the reverse of clockwise in each case.
+
+Answer Bank: up, down, north, south, east, west
+if an {object} facing {direction} is rotated {rotationamount} degrees {rotationdirection} around the {rotationaxis} axis, which direction is it now facing?

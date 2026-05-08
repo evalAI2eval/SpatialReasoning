@@ -1,0 +1,1 @@
+Using standard 3D axis nomenclature, if a {object} on a {context_object} is rotated about its {directional_axis} axis {degrees} degrees, can it still be {object_use_verb}?

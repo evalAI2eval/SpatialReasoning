@@ -1,0 +1,1 @@
+if an {object} at position {position} is translated {distance} units {direction}, which direction is it relative to {another_object} at position {another_position}?

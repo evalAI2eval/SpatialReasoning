@@ -1,0 +1,1617 @@
+average_score: 0.0
+model: qwen3.6:27b
+repeat: 1
+results:
+- model: qwen3.6:27b
+  repeat_index: 0
+  task_results:
+  - response: U:3 5;6 5| L:2 1;4 6| F:6 2;6 2| R:3 4;6 3| B:2 3;4 5| D:1 3;3 4
+    task:
+      correct_answer: U:4 4;5 3| L:6 1;4 2| F:3 1;6 1| R:2 3;6 6| B:2 2;4 5| D:1 5;3
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves U in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:6 1;6 1| L:2 2;4 2| F:4 3;4 5| R:3 1;6 6| B:2 3;4 5| D:1 5;3 5
+    task:
+      correct_answer: U:3 5;4 4| L:2 3;4 2| F:2 2;6 1| R:6 1;6 6| B:3 1;4 5| D:1 5;3
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves U1 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:6 6;3 1| L:2 2;4 2| F:2 3;4 5| R:4 3;4 5| B:2 3;4 5| D:1 5;3 5
+    task:
+      correct_answer: U:5 4;3 4| L:3 1;4 2| F:2 3;6 1| R:2 2;6 6| B:6 1;4 5| D:1 5;3
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves U2 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1| R:3 1;6 6| B:2 3;4 5| D:1 5;3 5
+    task:
+      correct_answer: U:4 3;4 5| L:2 2;4 5| F:6 1;4 2| R:3 1;6 1| B:2 3;6 6| D:3 1;5
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves D in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1| R:3 1;6 6| B:2 3;4 5| D:1 5;3 5
+    task:
+      correct_answer: U:4 3;4 5| L:2 2;6 1| F:6 1;6 6| R:3 1;4 5| B:2 3;4 2| D:5 5;1
+        3
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves D1 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1| R:3 1;6 6| B:2 3;4 5| D:5 3;5 1
+    task:
+      correct_answer: U:4 3;4 5| L:2 2;6 6| F:6 1;4 5| R:3 1;4 2| B:2 3;6 1| D:5 3;5
+        1
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves D2 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;2 4| F:6 1;4 1| R:3 1;6 6| B:2 3;4 5| D:1 5;3 5
+    task:
+      correct_answer: U:5 3;3 5| L:4 2;2 2| F:4 1;4 1| R:3 1;6 6| B:2 3;4 1| D:6 5;6
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves L in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:6 1;6 1| F:6 1;2 2| R:3 1;6 6| B:2 3;4 5| D:1 5;3 5
+    task:
+      correct_answer: U:6 3;6 5| L:2 2;2 4| F:1 1;3 1| R:3 1;6 6| B:2 4;4 4| D:5 5;3
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves L1 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;2 4| F:6 6;1 1| R:3 1;6 6| B:2 3;4 5| D:1 5;3 5
+    task:
+      correct_answer: U:1 3;3 5| L:2 4;2 2| F:5 1;3 1| R:3 1;6 6| B:2 6;4 6| D:4 5;4
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves L2 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:6 6;6 1| R:3 5;6 3| B:2 3;4 5| D:1 1;3 5
+    task:
+      correct_answer: U:4 1;4 1| L:2 2;4 2| F:6 5;6 5| R:6 3;6 1| B:5 3;3 5| D:1 4;3
+        2
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves R in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:6 6;6 1| R:3 3;6 6| B:2 3;4 5| D:1 5;1 5
+    task:
+      correct_answer: U:4 4;4 2| L:2 2;4 2| F:6 3;6 5| R:1 6;3 6| B:5 3;5 5| D:1 1;3
+        1
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves R1 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 5;4 2| L:2 2;4 2| F:6 1;3 1| R:1 3;6 6| B:2 3;4 5| D:1 5;6 5
+    task:
+      correct_answer: U:4 5;4 5| L:2 2;4 2| F:6 4;6 2| R:6 6;1 3| B:1 3;1 5| D:1 3;3
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves R2 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;6 5| L:2 2;1 2| F:6 2;6 1| R:3 1;6 4| B:2 3;4 5| D:1 5;3 4
+    task:
+      correct_answer: U:4 3;2 2| L:2 1;4 5| F:6 6;1 1| R:4 1;5 6| B:2 3;4 5| D:6 3;3
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves F in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:2 2;4 2| R:1 5;6 6| B:2 3;4 5| D:6 1;6 1
+    task:
+      correct_answer: U:4 3;3 6| L:2 5;4 4| F:1 1;6 6| R:5 1;1 6| B:2 3;4 5| D:2 2;3
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves F1 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:6 1;6 1| F:6 1;6 1| R:6 6;3 1| B:2 3;4 5| D:2 2;4 2
+    task:
+      correct_answer: U:4 3;5 1| L:2 6;4 3| F:1 6;1 6| R:2 1;2 6| B:2 3;4 5| D:5 4;3
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves F2 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 5;4 2| L:2 3;4 5| F:6 1;3 1| R:2 1;4 6| B:6 3;6 6| D:1 5;3 5
+    task:
+      correct_answer: U:1 6;4 5| L:3 2;4 2| F:6 1;6 1| R:3 5;6 3| B:4 2;5 3| D:1 5;2
+        4
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves B in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1| R:3 1;6 6| B:4 2;5 2| D:1 5;3 5
+    task:
+      correct_answer: U:4 2;4 5| L:3 2;5 2| F:6 1;6 1| R:3 4;6 3| B:3 5;2 4| D:1 5;6
+        1
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves B1 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1| R:3 1;6 6| B:2 5;4 3| D:1 5;3 5
+    task:
+      correct_answer: U:5 3;4 5| L:6 2;1 2| F:6 1;6 1| R:3 4;6 2| B:5 4;3 2| D:1 5;3
+        4
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves B2 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1| R:3 1;6 6| B:2 3;4 5| D:1 5;3 5
+    task:
+      correct_answer: U:1 5;4 4| L:3 2;4 2| F:6 5;6 4| R:3 6;5 3| B:1 2;1 3| D:1 6;2
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves B R2 in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: U:4 3;4 5| L:2 2;2 4| F:6 1;1 5| R:3 1;6 6| B:2 3;4 5| D:1 3;3 5
+    task:
+      correct_answer: U:5 3;4 5| L:6 2;3 2| F:6 1;1 2| R:3 4;6 1| B:5 4;6 2| D:3 1;4
+        5
+      prompt: 'A 2 by 2 Rubrix cube can be represented as a flat diagram of 6 sections,
+        each representing a face. The up (U) face is above the front (F) face, the
+        left (L) face is to the left of the front (F) face, the right (R) face is
+        to the right of the front (F) face, the back (B) face is to the right of the
+        right (R) face, and the down (D) face is below the front (F) face.
+
+        Given the following 2 by 2 Rubrik''s cube: U:4 3;4 5| L:2 2;4 2| F:6 1;6 1|
+        R:3 1;6 6| B:2 3;4 5| D:1 5;3 5, apply these moves B2 D in order to the starting
+        cube and return the resulting cube in the same format as the starting cube.'
+      scoring_functions:
+      - binary_match
+      system_prompt: '"Follow the next instructions carefully. DO NOT provide anything
+        other than the exact answer. DO NOT provide any explanations or reasoning
+        steps. DO NOT provide any additional text. ONLY provide the final answer in
+        the exact format specified in the instructions. The answer should be concise
+        and to the point."
+
+        '
+      tags:
+      - 3d
+      - complex
+      - rubiks_cube
+      - multi_transformation
+      - 3d_complex_cube_transformation_tasks
+      task_name: final_3d_complex_cube_transformation_tasks
+  - response: 'Front: 5, Back: 2, Up: 4, Down: 3, Left: 6, Right: 1'
+    task:
+      correct_answer: 'Front: 4, Back: 3, Top: 1, Bottom: 6, Left: 5, Right: 2'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 6, Back: 1, Top: 4, Bottom: 3, Left: 5,
+        Right: 2, what are the values on the directional faces after the following
+        transformations? rotate right face -90 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 4, Back: 3, Up: 1, Down: 6, Left: 5, Right: 2'
+    task:
+      correct_answer: 'Front: 5, Back: 2, Top: 1, Bottom: 6, Left: 3, Right: 4'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 4, Back: 3, Top: 1, Bottom: 6, Left: 5,
+        Right: 2, what are the values on the directional faces after the following
+        transformations? rotate bottom face -90 degrees counterclockwise Respond in
+        the format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 5, Back: 2, Up: 3, Down: 4, Left: 1, Right: 6'
+    task:
+      correct_answer: 'Front: 1, Back: 6, Top: 5, Bottom: 2, Left: 4, Right: 3'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 1, Back: 6, Top: 3, Bottom: 4, Left: 5,
+        Right: 2, what are the values on the directional faces after the following
+        transformations? rotate front face -270 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 5, Back: 2, Up: 3, Down: 4, Left: 1, Right: 6'
+    task:
+      correct_answer: 'Front: 3, Back: 4, Top: 6, Bottom: 1, Left: 5, Right: 2'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 3, Back: 4, Top: 5, Bottom: 2, Left: 1,
+        Right: 6, what are the values on the directional faces after the following
+        transformations? rotate front face 270 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 2, Back: 5, Up: 5, Down: 2, Left: 3, Right: 4'
+    task:
+      correct_answer: 'Front: 5, Back: 2, Top: 1, Bottom: 6, Left: 3, Right: 4'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 6, Back: 1, Top: 5, Bottom: 2, Left: 3,
+        Right: 4, what are the values on the directional faces after the following
+        transformations? rotate left face 270 degrees counterclockwise Respond in
+        the format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 5, Back: 2, Up: 3, Down: 4, Left: 1, Right: 6'
+    task:
+      correct_answer: 'Front: 5, Back: 2, Top: 4, Bottom: 3, Left: 1, Right: 6'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 5, Back: 2, Top: 6, Bottom: 1, Left: 4,
+        Right: 3, what are the values on the directional faces after the following
+        transformations? rotate front face -270 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 4, Back: 3, Up: 2, Down: 5, Left: 1, Right: 6'
+    task:
+      correct_answer: 'Front: 3, Back: 4, Top: 2, Bottom: 5, Left: 6, Right: 1'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 4, Back: 3, Top: 2, Bottom: 5, Left: 1,
+        Right: 6, what are the values on the directional faces after the following
+        transformations? rotate bottom face 180 degrees counterclockwise Respond in
+        the format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 4, Back: 3, Up: 2, Down: 5, Left: 6, Right: 1'
+    task:
+      correct_answer: 'Front: 4, Back: 3, Top: 2, Bottom: 5, Left: 1, Right: 6'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 6, Back: 1, Top: 2, Bottom: 5, Left: 4,
+        Right: 3, what are the values on the directional faces after the following
+        transformations? rotate bottom face -90 degrees counterclockwise Respond in
+        the format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 2, Back: 5, Up: 3, Down: 4, Left: 1, Right: 6'
+    task:
+      correct_answer: 'Front: 4, Back: 3, Top: 1, Bottom: 6, Left: 5, Right: 2'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 1, Back: 6, Top: 3, Bottom: 4, Left: 5,
+        Right: 2, what are the values on the directional faces after the following
+        transformations? rotate right face 270 degrees counterclockwise Respond in
+        the format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 6, Back: 1, Up: 2, Down: 5, Left: 3, Right: 4'
+    task:
+      correct_answer: 'Front: 3, Back: 4, Top: 6, Bottom: 1, Left: 5, Right: 2'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 3, Back: 4, Top: 2, Bottom: 5, Left: 6,
+        Right: 1, what are the values on the directional faces after the following
+        transformations? rotate front face -270 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 4, Back: 3, Up: 5, Down: 2, Left: 5, Right: 2'
+    task:
+      correct_answer: 'Front: 6, Back: 1, Top: 4, Bottom: 3, Left: 5, Right: 2'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 1, Back: 6, Top: 3, Bottom: 4, Left: 5,
+        Right: 2, what are the values on the directional faces after the following
+        transformations? rotate right face 180 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 3, Back: 4, Up: 5, Down: 2, Left: 1, Right: 6'
+    task:
+      correct_answer: 'Front: 4, Back: 3, Top: 2, Bottom: 5, Left: 1, Right: 6'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 3, Back: 4, Top: 5, Bottom: 2, Left: 1,
+        Right: 6, what are the values on the directional faces after the following
+        transformations? rotate left face 180 degrees counterclockwise Respond in
+        the format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 6, Back: 1, Up: 5, Down: 2, Left: 3, Right: 4'
+    task:
+      correct_answer: 'Front: 1, Back: 6, Top: 4, Bottom: 3, Left: 2, Right: 5'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 1, Back: 6, Top: 3, Bottom: 4, Left: 5,
+        Right: 2, what are the values on the directional faces after the following
+        transformations? rotate front face -180 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 5, Back: 2, Up: 1, Down: 6, Left: 3, Right: 4'
+    task:
+      correct_answer: 'Front: 6, Back: 1, Top: 4, Bottom: 3, Left: 5, Right: 2'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 5, Back: 2, Top: 4, Bottom: 3, Left: 1,
+        Right: 6, what are the values on the directional faces after the following
+        transformations? rotate top face 270 degrees counterclockwise Respond in the
+        format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 3, Back: 4, Up: 1, Down: 6, Left: 5, Right: 2'
+    task:
+      correct_answer: 'Front: 5, Back: 2, Top: 3, Bottom: 4, Left: 6, Right: 1'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 3, Back: 4, Top: 2, Bottom: 5, Left: 6,
+        Right: 1, what are the values on the directional faces after the following
+        transformations? rotate right face 270 degrees counterclockwise Respond in
+        the format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 4, Back: 3, Up: 1, Down: 6, Left: 5, Right: 2'
+    task:
+      correct_answer: 'Front: 4, Back: 3, Top: 1, Bottom: 6, Left: 5, Right: 2'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 4, Back: 3, Top: 6, Bottom: 1, Left: 2,
+        Right: 5, what are the values on the directional faces after the following
+        transformations? rotate front face -180 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 3, Back: 4, Up: 2, Down: 5, Left: 1, Right: 6'
+    task:
+      correct_answer: 'Front: 2, Back: 5, Top: 4, Bottom: 3, Left: 6, Right: 1'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 2, Back: 5, Top: 6, Bottom: 1, Left: 3,
+        Right: 4, what are the values on the directional faces after the following
+        transformations? rotate front face 270 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 1, Back: 6, Up: 3, Down: 4, Left: 2, Right: 5'
+    task:
+      correct_answer: 'Front: 3, Back: 4, Top: 5, Bottom: 2, Left: 1, Right: 6'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 3, Back: 4, Top: 1, Bottom: 6, Left: 2,
+        Right: 5, what are the values on the directional faces after the following
+        transformations? rotate front face -270 degrees counterclockwise Respond in
+        the format that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  - response: 'Front: 4, Back: 3, Up: 2, Down: 5, Left: 6, Right: 1'
+    task:
+      correct_answer: 'Front: 1, Back: 6, Top: 5, Bottom: 2, Left: 4, Right: 3'
+      prompt: 'Given the following directional faces of a numerical die and the values
+        on those directional faces Front: 4, Back: 3, Top: 5, Bottom: 2, Left: 6,
+        Right: 1, what are the values on the directional faces after the following
+        transformations? rotate top face -270 degrees clockwise Respond in the format
+        that was used to provide the initial state of the die without brackets.'
+      scoring_functions:
+      - binary_match
+      system_prompt: "Answer the following question as specified with the format {Front:\
+        \ ##, Back: ##, Up: ##, Down: ##, Left: ##, Right: ##} describing the state\
+        \ of the die after the specified rotations. \nThe initial state of the die\
+        \ will be provided, along with a series of rotations.\nThe numbers represent\
+        \ which face of the die is in that position. The faces of the die are numbered\
+        \ 1 through 6, with 1 opposite 6, 2 opposite 5, and 3 opposite 4. \nYour response\
+        \ should ONLY include the final state of the die in the specified format,\
+        \ and nothing else. Do not include any explanations or additional text.\n\
+        An example response would be \"Front: 2, Back: 5, Up: 1, Down: 6, Left: 3,\
+        \ Right: 4\" without quotations. If a response is not in the correct format,\
+        \ it will be marked as incorrect. \nDO NOT encase your answer in brackets\
+        \ or anything else.\n"
+      tags:
+      - 3d
+      - rotation
+      - die
+      - multi_transformation
+      - 3d_rotations_multi_die
+      task_name: final_3d_complex_rotate_die
+  timestamp: '2026-04-28T09:24:09'
+scores_by_tag:
+  3d:
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  3d_complex_cube_transformation_tasks:
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  3d_rotations_multi_die:
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  complex:
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  die:
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  multi_transformation:
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  rotation:
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  rubiks_cube:
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+total_scores:
+- - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match
+  - calculated_score: 0.0
+    score_function: binary_match

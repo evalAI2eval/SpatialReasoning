@@ -1,0 +1,16 @@
+system_prompt: |
+  Answer the following question exclusively with a single answer from the answer bank.
+  Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+
+  Answer Bank: yes, no
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 3d
+  - rotation
+  - translation
+  - combined_transformations
+  - common_sense
+  - 3d_combined_transformations_common_sense

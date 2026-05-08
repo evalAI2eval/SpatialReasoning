@@ -1,0 +1,1 @@
+If a {object} is moved {distance} {direction} a {context_object}, can it still be {object_use_verb}?

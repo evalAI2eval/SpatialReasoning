@@ -1,0 +1,1 @@
+Given the following directional faces of a numerical die and the values on those directional faces {starting_state}, what are the values on the directional faces after the following transformations? {transformations} Respond in the format that was used to provide the initial state of the die without brackets.

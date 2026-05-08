@@ -1,0 +1,1 @@
+if an {object} at position {position} undergoes the following translations: {transformations}, which direction is it relative to {another_object} at position {another_position}?

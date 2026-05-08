@@ -1,0 +1,21 @@
+object,position,transformations,another_object,another_position,reference
+book,"(5,-2)",2 units up then 6 units right,lamp,"(-3,-3)",Right
+vase,"(-5,-3)",2 units down then 6 units right then 3 units right then 6 units left,lamp,"(-3,2)",Down
+lamp,"(5,0)",3 units left then 2 units up,clock,"(-1,-2)",Up
+bag,"(-1,-1)",5 units up then 5 units up,book,"(3,-2)",Up
+cup,"(-5,0)",4 units down then 4 units left then 3 units left then 2 units down,bowl,"(-2,1)",Left
+shoe,"(-4,1)",6 units down then 4 units up then 3 units up then 4 units right,bowl,"(0,-2)",Up
+candle,"(-3,3)",5 units right then 5 units down,cup,"(5,-1)",Left
+candle,"(-3,5)",6 units right then 6 units right then 4 units down,plant,"(2,2)",Right
+plant,"(1,-5)",3 units down then 5 units up,pillow,"(6,-6)",Left
+bag,"(3,1)",2 units up then 6 units left then 4 units up then 4 units right,umbrella,"(2,-2)",Up
+clock,"(-6,5)",3 units up then 4 units down then 3 units left then 3 units up,bottle,"(5,-2)",Left
+umbrella,"(1,-6)",3 units up then 3 units up then 2 units right,key,"(-5,-1)",Right
+cup,"(6,-4)",6 units down then 4 units right then 3 units down,shoe,"(-4,4)",Down
+hat,"(-6,-5)",3 units up then 2 units left,bowl,"(5,4)",Left
+cup,"(-3,-2)",6 units down then 6 units right,pillow,"(4,1)",Down
+bowl,"(6,0)",5 units left then 5 units right,remote,"(-3,-5)",Right
+bottle,"(4,4)",5 units left then 2 units down,vase,"(4,-5)",Up
+mug,"(2,1)",4 units right then 3 units up,umbrella,"(-4,0)",Right
+bottle,"(-5,-6)",2 units down then 3 units right,shoe,"(4,2)",Down
+remote,"(-3,0)",2 units right then 4 units right then 4 units right,umbrella,"(-6,-4)",Right

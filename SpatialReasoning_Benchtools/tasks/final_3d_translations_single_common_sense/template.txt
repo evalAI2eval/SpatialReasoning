@@ -1,0 +1,5 @@
+Answer the following question exclusively with a single answer from the answer bank.
+Nothing else should be included in your response. Do not abbreviate or modify the answers in any way.
+
+Answer Bank: yes, no
+If a {object} is moved {distance} {direction} a {context_object}, can it still be {object_use_verb}?

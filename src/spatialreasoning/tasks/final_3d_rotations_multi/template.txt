@@ -1,0 +1,1 @@
+if an {object} facing {direction} undergoes the following rotations: {transformations}, which direction is it now facing?

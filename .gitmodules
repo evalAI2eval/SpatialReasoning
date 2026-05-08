@@ -1,0 +1,3 @@
+[submodule "rubix_cube_checker"]
+	path = rubix_cube_checker
+	url = https://github.com/EmilyL1019/rubrix_cube_checker.git
