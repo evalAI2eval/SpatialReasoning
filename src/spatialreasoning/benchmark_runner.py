@@ -6,11 +6,11 @@ from .benchmark_types import Task, TaskResult, BenchmarkResult
 
 class BenchmarkRunner:
     """Class responsible for running a benchmark for a given model and set of tasks, producing a BenchmarkResult with responses and correct answers."""
-    def __init__(self, model: str = 'gemma3', tasks: List[Task] = None, debug_mode: bool = False):
+    def __init__(self, model: str = 'gemma3', tasks: List[Task] = None, debug_mode: bool = True):
         self.model = model
         self.tasks: List[Task] = tasks or []
         self.result: BenchmarkResult = None
-        self.debug_mode = False
+        self.debug_mode = debug_mode
 
     def run_benchmark(self, repeat_index: int = 0, think: bool = False) -> BenchmarkResult:
         task_results = []

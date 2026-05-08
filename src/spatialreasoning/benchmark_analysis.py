@@ -140,13 +140,16 @@ def plot_tag_accuracy(analysis_data: dict[str, dict], save_dir: str, filter_tags
         tag_accs = compute_tag_accuracies(data, all_tags)
         heights = [tag_accs.get(tag, 0.0) for tag in all_tags]
         offsets = x + (i - n_models / 2 + 0.5) * bar_width
-        ax.bar(offsets, heights, width=bar_width, label=model, alpha=0.85, edgecolor="black")
+        bars = ax.bar(offsets, heights, width=bar_width, label=model, alpha=0.85, edgecolor="black")
+        for bar, h in zip(bars, heights):
+            ax.text(bar.get_x() + bar.get_width() / 2, h + 0.01, f"{h:.0%}",
+                    ha="center", va="bottom", fontsize=5, rotation=0 if n_models > 2 else 0)
 
     ax.set_xticks(x)
     ax.set_xticklabels(all_tags, rotation=15, ha="right")
     ax.set_ylabel("Accuracy")
     ax.set_title(tag_plot_title if tag_plot_title else "Per-Tag Accuracy by Model")
-    ax.set_ylim(0, 1.05)
+    ax.set_ylim(0, 1.15)
     ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{v:.0%}"))
     ax.legend(title="Model")
     fig.tight_layout()
