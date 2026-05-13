@@ -1,0 +1,13 @@
+system_prompt: |
+  Answer the following question exclusively with a single answer from the answer bank.
+  Nothing else should be included in your response.
+
+  Answer Bank: yes, no
+
+scoring_functions:
+  - binary_match
+
+tags:
+  - 3d_spatial_awareness
+  - rotation_translation_combo
+  - common_sense
